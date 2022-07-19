@@ -29,7 +29,6 @@ test('Testa se são exibidos todos os cards de pokémons favoritados', () => {
         map: 'https://cdn2.bulbagarden.net/upload/b/bd/Kanto_Celadon_City_Map.png',
       },
     ],
-    summary: 'This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.',
   }];
 
   renderWithRouter(<FavoritePokemons pokemons={ arrayPok } />);
@@ -47,9 +46,4 @@ test('Testa se são exibidos todos os cards de pokémons favoritados', () => {
   expect(imagePok).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png');
   const starPok = screen.getByAltText(/pikachu is marked as favorite/i);
   expect(starPok).toHaveAttribute('src', '/star-icon.svg');
-
-
-
-  // const pokFav = getByRole('img', { alt: /caterpie sprite/i });
-  // expect(pokFav).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/8/83/Spr_5b_010.png');
 });
