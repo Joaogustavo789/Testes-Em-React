@@ -32,7 +32,6 @@ test('Testa se são exibidos todos os cards de pokémons favoritados', () => {
   }];
 
   renderWithRouter(<FavoritePokemons pokemons={ arrayPok } />);
-  screen.logTestingPlaygroundURL();
 
   const namePok = screen.getByText(/pikachu/i);
   expect(namePok).toBeInTheDocument();
