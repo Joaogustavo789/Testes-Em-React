@@ -1,16 +1,52 @@
+## Rodando localmente
+
+<details>
+    <summary>Clique para expandir</summary>
+<br>
+
+Clone o projeto
+
+```bash
+  git clone git@github.com:Joaogustavo789/Testes-Em-React.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd Testes-Em-React
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie a aplicação
+
+```bash
+  npm start
+```
+</details>
+
+## Rodando os testes
+
+<details>
+    <summary>Clique para expandir</summary>
+<br>
+
+Para rodar os testes, rode o seguinte comando
+
+```bash
+  npm test
+```
+</details>
+
 ## Tecnologias e Ferramentas
 
 <table width="320px" align="center">
   <tbody>
     <tr valign="top">
-      <td width="80px" align="center">
-        <span><strong>HTML</strong></span><br>
-        <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-      </td>
-      <td width="80px" align="center">
-        <span><strong>CSS</strong></span><br>
-        <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-      </td>
       <td width="80px" align="center">
         <span><strong>JavaScript</strong></span><br>
         <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -31,7 +67,6 @@
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [React](https://pt-br.reactjs.org/)
-- [Jest](https://jestjs.io/pt-BR/)
 - [RTL](https://testing-library.com/)
 
 ## Feedback
