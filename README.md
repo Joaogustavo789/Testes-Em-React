@@ -1,3 +1,8 @@
+
+# Testes Em React
+
+Testes Em React é um projeto feito com a biblioteca `React` de uma página de Pokémons. Nele, o principal objetivo em si tem como praticar testes em React utilizando a biblioteca de testes `RTL (React Testing Library)`.
+
 ## Rodando localmente
 
 <details>
