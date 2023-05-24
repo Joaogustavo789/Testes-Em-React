@@ -26,3 +26,14 @@
     </tr>
   </tbody>
 </table>
+
+## Documentação
+
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [React](https://pt-br.reactjs.org/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [RTL](https://testing-library.com/)
+
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de jgustavomendonca@gmail.com
